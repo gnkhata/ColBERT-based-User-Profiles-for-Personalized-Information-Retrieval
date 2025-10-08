@@ -1,4 +1,5 @@
-Creating Buckets:
+This work is based on the AOL4PS dataset, which should be downloaded first. The code can be run in two ways: (1 )Treat the entire dataset as a single bucket, (2) Sort the dataset into buckets based on the length of user records, evaluate each bucket separately, and aggregate the results. For option (1), the data has already been processed and is included in the repository. You can run rerank.py directly, ensuring that the code points to the correct data file paths. For option (2), you will need to filter the original dataset, generate buckets, split each bucket into training and test sets, and update the code to reflect the new data categorization.
+
 - outputs/progress.json: maps each URL extracted from users to T/F based on availability
 
 - filter-data.py:
