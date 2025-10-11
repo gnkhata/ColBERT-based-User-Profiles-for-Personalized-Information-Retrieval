@@ -25,7 +25,7 @@ collection['title'] = collection['title'].fillna('')
 
 Split user's record into train (for profile generation) and test (records to test)
 """
-user_records = pd.read_csv(r'data\filtered_data.csv')
+user_records = pd.read_csv(r'data\filtered_data_100_9.csv')
 # Initialize empty dataframes for train and test
 train_records = pd.DataFrame()
 test_records = pd.DataFrame()
